@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withAuth } from '@okta/okta-react';
+import { SectionStyle } from './style/ProfileComponent';
 
 export default withAuth(class ProfilePage extends Component {
 	constructor(props) {
@@ -24,13 +25,13 @@ export default withAuth(class ProfilePage extends Component {
 	render() {
 		if (!this.state.user) return null;
 		return (
-			<section className="user-profile">
+			<SectionStyle>
 				<h1>User Profile</h1>
 				<div>
 					<label>Name:</label>
 					<span>{this.state.user.name}</span>
 				</div>
-			</section>
+			</SectionStyle>
 		)
 	}
 });

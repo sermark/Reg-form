@@ -7,10 +7,15 @@
     "@okta/okta-auth-js": "^1.16.0",
     "@okta/okta-react": "^1.0.0",
     "@okta/okta-signin-widget": "^2.3.0",
+    "history": "^4.7.2",
+    "normalize.css": "^8.0.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "react-scripts-cssmodules": "^1.1.10",
+    "reset-css": "^4.0.1",
+    "styled-components": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Security } from '@okta/okta-react';
 
+import 'reset-css';
 import './index.css';
 import config from './app.config';
 import App from './App';
