@@ -19,6 +19,7 @@ export const FormStyle = styled.form`
 
 		&:disabled {
 			background-color: gray;
+			cursor: not-allowed;
 		}
 	}
 `;

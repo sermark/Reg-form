@@ -5,7 +5,7 @@ import { InputStyle, LabelStyle, InputWrapper } from './style/inputComponent';
 
 const Input = ({ name, type, value, placeholder, changeInput, isValid, error }) => {
 	return (
-		<InputWrapper className='form-group'>
+		<InputWrapper>
 			<LabelStyle htmlFor={name}>
 				<p>{name}</p>
 				<InputStyle

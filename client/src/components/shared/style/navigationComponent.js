@@ -22,4 +22,4 @@ export const NavStyle = styled.nav`
 			}
 		}
 	}
-`
+`;
